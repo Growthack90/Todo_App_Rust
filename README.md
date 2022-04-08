@@ -10,4 +10,4 @@ L'interfaccia del programma gestirà queste tre azioni:
 
 Il programma salverà in modo permanente le attività in una risorsa di archiviazione.
 
-Il tutorial dal quale ho attinto per sviluppare l'app è visibile a questo [link] (https://docs.microsoft.com/it-it/learn/modules/rust-create-command-line-program/2-application-outline).
+Il tutorial dal quale ho attinto per sviluppare l'app è visibile a questo [link](https://docs.microsoft.com/it-it/learn/modules/rust-create-command-line-program/2-application-outline).
