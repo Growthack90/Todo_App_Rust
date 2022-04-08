@@ -1,10 +1,11 @@
+use anyhow::anyhow;
+use std::path::PathBuf;
 use structopt::StructOpt;
 mod cli;
 mod tasks;
 
 use cli::{Action::*, CommandLineArgs};
 use tasks::Task;
-use std::path::PathBuf;
 
 fn find_default_journal_file() -> Option<PathBuf> {
     home::home_dir().map(|mut path| {
